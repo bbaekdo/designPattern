@@ -1,0 +1,16 @@
+
+public class Computer implements ComputerPart {
+	
+	ComputerPart[] parts;
+	
+	public Computer() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void accept(ComputerPartVisitor computerPartVisitor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class BinaryObserver extends Observer {
+
+	public BinaryObserver(Subject subject) {
+		this.subject = subject;
+		this.subject.attach(observer);
+	}
+	
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
