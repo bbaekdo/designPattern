@@ -1,0 +1,20 @@
+package org.expression;
+
+public class AndExpression implements Expression {
+	
+	private Expression expr1 = null;
+	private Expression expr2 = null;
+	
+	public AndExpression(Expression expr1, Expression expr2) {
+		// TODO Auto-generated constructor stub
+		this.expr1 = expr1;
+		this.expr2 = expr2;
+	}
+	
+	@Override
+	public boolean interpreter(String context) {
+		// TODO Auto-generated method stub
+		return expr1.interpreter(context) && expr2.interpreter(context);
+	}
+
+}

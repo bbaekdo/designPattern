@@ -1,0 +1,31 @@
+package org.shape.maker;
+
+import org.shape.Circle;
+import org.shape.Rectangle;
+import org.shape.Shape;
+import org.shape.Square;
+
+public class ShapeMaker {
+	private Shape circle;
+	private Shape rectangle;
+	private Shape square;
+	
+	public ShapeMaker() {
+		// TODO Auto-generated constructor stub
+		circle = new Circle();
+		rectangle = new Rectangle();
+		square = new Square();
+	}
+	
+	public void drawCircle() {
+		circle.draw();
+	}
+	
+	public void drawRectangle() {
+		rectangle.draw();
+	}
+	
+	public void drawSquare() {
+		square.draw();
+	}
+}

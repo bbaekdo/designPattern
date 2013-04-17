@@ -1,0 +1,37 @@
+package org.controller;
+
+import org.model.Student;
+import org.view.StudentView;
+
+public class StudentController {
+	
+	private Student student;
+	private StudentView studentView;	
+	
+	public StudentController(Student student, StudentView studentView) {
+		super();
+		this.student = student;
+		this.studentView = studentView;
+	}
+	
+	public String getStudentName() {
+		return student.getName();
+	}
+	
+	public void setStudentName(String name) {
+		student.setName(name);
+	}
+	
+	public void setStudentId(String id) {
+		student.setsId(id);
+	}
+	
+	public String getStudentId() {
+		return student.getsId();
+	}
+	
+	public void updateView() {
+		studentView.printStudentDetails(student.getName(), student.getsId()	);
+	}
+	
+}

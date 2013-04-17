@@ -1,0 +1,25 @@
+package org.demo;
+
+import org.shape.Circle;
+import org.shape.Rectangle;
+import org.shape.Shape;
+import org.shape.decorator.RedShapeDecorator;
+
+public class DecoratorPatternDemo {
+	public static void main(String[] args) {
+		Shape circle = new Circle();
+		
+		Shape redCircle = new RedShapeDecorator(new Circle());
+		
+		Shape redRectangle = new RedShapeDecorator(new Rectangle());
+		
+		System.out.println("Normal circle: ");
+		circle.draw();
+		
+		System.out.println("red circle: ");
+		redCircle.draw();
+		
+		System.out.println("Red rectangle");
+		redRectangle.draw();
+	}
+}
