@@ -1,0 +1,9 @@
+package org.shape.demo;
+
+public class FlyweightPatternDemo {
+	private static final String COLORS[] = {"Red", "Green", "Black", "Blue"};
+	
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package org;
+
+public class ChainPatternDemo {
+	private static AbstactLogger getChainLoggers() {
+		AbstactLogger Logger = new ErrorLogger(AbstactLogger.ERROR);
+		AbstactLogger Logger = new ErrorLogger(AbstactLogger.DEBUG);
+		AbstactLogger Logger = new ErrorLogger(0);
+		
+	}
+}

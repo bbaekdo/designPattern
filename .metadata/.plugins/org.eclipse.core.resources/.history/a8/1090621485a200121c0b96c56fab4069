@@ -1,0 +1,10 @@
+package org.stock;
+
+public class Stock {
+	private String name = "ABC";
+	private int quantity = 10;
+	
+	public void buyStock() {
+		
+	}
+}

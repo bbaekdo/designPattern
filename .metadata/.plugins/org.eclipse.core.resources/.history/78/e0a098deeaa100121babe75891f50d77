@@ -1,0 +1,23 @@
+package org.shape;
+
+public class Circle implements Shape {
+	
+	private String color;
+	private int x;
+	private int y;
+	private int radius;
+	
+	public Circle(String color) {
+		// TODO Auto-generated constructor stub
+		this.color = color;
+	}
+	
+	
+	
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

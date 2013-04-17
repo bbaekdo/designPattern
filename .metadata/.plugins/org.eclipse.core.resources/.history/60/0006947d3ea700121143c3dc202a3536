@@ -1,0 +1,12 @@
+
+public class NameRepository implements Container {
+
+	public String names[] = {"Robert", "John", "Julie", "Lora"}; 
+	
+	@Override
+	public Iterator getIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

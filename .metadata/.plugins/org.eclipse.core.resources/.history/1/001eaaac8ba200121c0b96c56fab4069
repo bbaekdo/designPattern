@@ -1,0 +1,13 @@
+package org.expression;
+
+public class Cigarette extends Item {
+	String brand;
+	
+	public Cigarette() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void display() {
+		
+	}
+}

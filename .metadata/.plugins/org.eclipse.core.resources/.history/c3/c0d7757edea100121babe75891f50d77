@@ -1,0 +1,16 @@
+package org.demo;
+
+import org.shape.Circle;
+import org.shape.Rectangle;
+import org.shape.Shape;
+import org.shape.decorator.RedShapeDecorator;
+
+public class DecoratorPatternDemo {
+	public static void main(String[] args) {
+		Shape circle = new Circle();
+		
+		Shape redCircle = new RedShapeDecorator(new Circle());
+		
+		Shape reRectangle = new RedShapeDecorator(new Rectangle());
+	}
+}

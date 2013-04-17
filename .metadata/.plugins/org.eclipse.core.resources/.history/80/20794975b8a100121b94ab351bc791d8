@@ -1,0 +1,19 @@
+package org.media.advance.adapter;
+
+import org.media.advance.AdvanceMediaPlayer;
+
+public class MediaAdapter implements AdvanceMediaPlayer {
+
+	@Override
+	public void playVlc(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void playMp4(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package org.media.advance.adapter;
+
+import org.media.advance.AdvanceMediaPlayer;
+
+public class MediaAdapter implements AdvanceMediaPlayer {
+	
+}

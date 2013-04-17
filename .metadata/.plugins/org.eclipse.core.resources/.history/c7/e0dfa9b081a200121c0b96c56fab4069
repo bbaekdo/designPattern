@@ -1,0 +1,7 @@
+package org;
+
+public class ChainPatternDemo {
+	private static AbstactLogger getChainLoggers() {
+		AbstactLogger Logger = new 
+	}
+}

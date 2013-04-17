@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+task-tag-projects-already-scanned=AdapterPattern,BridgePattern,BuilderPattern,CompositePattern,FactoryPattern,FilterPattern,MvcPattern,PrototypePattern,SingletonPattern,ChainPattern,Collection,CommandPattern,DecoratorPattern,FacadePattern,FlyweightPattern,JavaReflection,ProxyPattern,RemoteSystemsTempFiles

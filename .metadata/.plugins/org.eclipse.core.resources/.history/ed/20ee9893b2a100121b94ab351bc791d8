@@ -1,0 +1,7 @@
+package org.demo;
+
+public class MvcPatternDemo {
+	public static void main(String[] args) {
+		
+	}
+}

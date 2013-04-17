@@ -1,0 +1,13 @@
+package org.shape.decorator;
+
+import org.shape.Shape;
+
+public class RedShapeDecorator extends ShapeDecorator {
+
+	public RedShapeDecorator(Shape decoratedShape) {
+		super(decoratedShape);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

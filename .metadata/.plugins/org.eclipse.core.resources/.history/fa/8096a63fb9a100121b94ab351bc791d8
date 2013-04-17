@@ -1,0 +1,7 @@
+package org.media.audio;
+
+import org.media.MediaPlayer;
+
+public class AudioPlayer implements MediaPlayer {
+
+}

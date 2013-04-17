@@ -1,0 +1,13 @@
+package org.image;
+
+public class RealImage implements Image {
+	
+	private String fileName;
+	
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package org.expression;
+
+public class Cigarette extends Item {
+	String brand;
+	
+	public Cigarette(String name, float price, String brand) {
+		// TODO Auto-generated constructor stub
+		super(name, price);
+		this.brand = brand;
+	}
+	@Override
+	public void display() {
+		super.display();
+		System.out.println("brand " + this.brand);
+	}
+}

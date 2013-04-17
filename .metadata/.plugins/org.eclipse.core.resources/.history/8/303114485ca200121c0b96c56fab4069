@@ -1,0 +1,105 @@
+public class UFOEnemyShip extends EnemyShip{
+02
+     
+03
+    private String idcode = "100";
+04
+     
+05
+    private String getPrivate() { return "How did you get this"; }
+06
+     
+07
+    private String getOtherPrivate(int thisInt, String thatString){
+08
+         
+09
+        return "How did you get here " + thisInt + " " + thatString;
+10
+         
+11
+    }
+12
+     
+13
+    public UFOEnemyShip(int number, String randString){
+14
+         
+15
+        System.out.println("You sent: " + number + " " + randString);
+16
+         
+17
+    }
+18
+     
+19
+    // We define the type of ship we want to create
+20
+    // by stating we want to use the factory that
+21
+    // makes enemy ships
+22
+     
+23
+    EnemyShipFactory shipFactory;
+24
+     
+25
+    // The enemy ship required parts list is sent to
+26
+    // this method. They state that the enemy ship
+27
+    // must have a weapon and engine assigned. That
+28
+    // object also states the specific parts needed
+29
+    // to make a regular UFO versus a Boss UFO
+30
+     
+31
+    public UFOEnemyShip(EnemyShipFactory shipFactory){
+32
+         
+33
+        this.shipFactory = shipFactory;
+34
+         
+35
+    }
+36
+ 
+37
+    // EnemyShipBuilding calls this method to build a
+38
+    // specific UFOEnemyShip
+39
+     
+40
+    void makeShip() {
+41
+         
+42
+        System.out.println("Making enemy ship " + getName());
+43
+         
+44
+        // The specific weapon & engine needed were passed in
+45
+        // shipFactory. We are assigning those specific part
+46
+        // objects to the UFOEnemyShip here
+47
+         
+48
+        weapon = shipFactory.addESGun();
+49
+        engine = shipFactory.addESEngine();
+50
+         
+51
+    }
+52
+     
+53
+}

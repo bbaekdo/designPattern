@@ -1,0 +1,5 @@
+package org.shape.factory;
+
+public class ShapeFactory {
+
+}

@@ -1,0 +1,8 @@
+import javax.xml.crypto.Data;
+
+
+public class ChatRoom {
+	public static void showMessage(User user, String message) {
+		System.out.println(new Data().toString());
+	}
+}

@@ -1,0 +1,15 @@
+package org.shape.decorator;
+
+import org.shape.Shape;
+
+public class ShapeDecorator implements Shape {
+	
+	protected Shape decoratedShape;
+	
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

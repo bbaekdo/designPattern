@@ -1,0 +1,9 @@
+package org.stock.demo;
+
+import org.stock.Stock;
+
+public class CommandPatternDemo {
+	public static void main(String[] args) {
+		Stock abStock = new Stock();
+	}
+}

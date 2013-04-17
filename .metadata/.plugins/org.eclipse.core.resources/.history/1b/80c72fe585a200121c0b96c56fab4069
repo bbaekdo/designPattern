@@ -1,0 +1,13 @@
+package org.stock.order;
+
+public class BuyStock implements Order {
+
+	private Stock abcStock;
+	
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

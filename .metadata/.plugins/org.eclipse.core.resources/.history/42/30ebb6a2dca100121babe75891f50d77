@@ -1,0 +1,7 @@
+package org.shape.decorator;
+
+import org.shape.Shape;
+
+public class ShapeDecorator implements Shape {
+
+}

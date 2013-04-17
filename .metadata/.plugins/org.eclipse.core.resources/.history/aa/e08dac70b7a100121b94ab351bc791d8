@@ -1,0 +1,5 @@
+package org.media.advance;
+
+public interface AdvanceMediaPlayer {
+	public void play 
+}

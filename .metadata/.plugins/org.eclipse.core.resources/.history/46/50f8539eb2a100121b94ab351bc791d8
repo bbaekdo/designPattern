@@ -1,0 +1,15 @@
+package org.demo;
+
+import org.model.Student;
+
+public class MvcPatternDemo {
+	
+	public static void main(String[] args) {
+		Student student = retriveS
+	}
+	
+	public static Student retriveStudentFromDatabase() {
+		return null;
+		
+	}
+}

@@ -1,0 +1,12 @@
+package org.shape.factory;
+
+import java.util.HashMap;
+
+import org.shape.Shape;
+
+public class ShapeFactory {
+	
+	private static final HashMap<String, Shape> circleMap = new HashMap();
+	
+	
+}

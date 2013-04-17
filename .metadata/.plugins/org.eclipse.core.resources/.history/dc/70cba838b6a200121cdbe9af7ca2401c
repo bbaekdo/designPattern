@@ -1,0 +1,12 @@
+package org.expression;
+
+public class InterpreterPatternDemo {
+	
+	public static Expression getMaleExpression() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

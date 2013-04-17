@@ -1,0 +1,17 @@
+package org.expression;
+
+public class InterpreterPatternDemo {
+	
+	public static Expression getMaleExpression() {
+		
+		Expression robert = new TerminalExpression("Robert");
+		Expression john = new TerminalExpression("John");
+		
+		return null;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

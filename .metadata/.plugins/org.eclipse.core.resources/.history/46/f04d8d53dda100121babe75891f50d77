@@ -1,0 +1,5 @@
+package org.shape.decorator;
+
+public class RedShapeDecorator extends ShapeDecorator {
+	
+}

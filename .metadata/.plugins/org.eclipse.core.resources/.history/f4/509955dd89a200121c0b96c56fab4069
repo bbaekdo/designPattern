@@ -1,0 +1,15 @@
+package org.stock.demo;
+
+import org.stock.Stock;
+import org.stock.order.BuyStock;
+import org.stock.order.SellStock;
+
+public class CommandPatternDemo {
+	public static void main(String[] args) {
+		Stock abStock = new Stock();
+		
+		BuyStock buyStock = new BuyStock(abcStock);
+		SellStock sellStock = new SellStock(abcStock);
+		
+	}
+}

@@ -1,0 +1,6 @@
+package org.view;
+
+public class StudentView {
+	
+	public void printStudentDetails()
+}

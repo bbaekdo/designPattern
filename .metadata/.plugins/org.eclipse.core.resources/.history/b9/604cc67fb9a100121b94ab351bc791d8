@@ -1,0 +1,16 @@
+package org.media.audio;
+
+import org.media.MediaPlayer;
+import org.media.advance.adapter.MediaAdapter;
+
+public class AudioPlayer implements MediaPlayer {
+	MediaAdapter mediaAdapter;
+	@Override
+	public void play(String audioType, String fileName) {
+		// TODO Auto-generated method stub
+		if(audioType.equalsIgnoreCase("mp3")) {
+			this.play(audioType, fileName);
+		}
+	}
+
+}

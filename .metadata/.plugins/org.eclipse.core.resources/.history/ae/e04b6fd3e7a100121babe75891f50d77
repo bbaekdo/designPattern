@@ -1,0 +1,7 @@
+package org.shape.maker;
+
+import org.shape.Shape;
+
+public class ShapeMaker {
+	private Shape circle;
+}

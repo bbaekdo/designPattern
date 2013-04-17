@@ -1,0 +1,13 @@
+package org;
+
+public class ErrorLogger extends AbstactLogger {
+
+	Eo
+	
+	@Override
+	protected void write(String message) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

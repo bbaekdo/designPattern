@@ -1,0 +1,5 @@
+package org.media.advance;
+
+public class Mp4Player implements AdvanceMediaPlayer {
+
+}

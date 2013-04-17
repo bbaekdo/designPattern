@@ -1,0 +1,33 @@
+package org.media.advance.adapter;
+
+import org.media.advance.AdvanceMediaPlayer;
+import org.media.advance.Mp4Player;
+import org.media.advance.VlcPlayer;
+
+public class MediaAdapter implements AdvanceMediaPlayer {
+	
+	AdvanceMediaPlayer advanceMediaPlayer;
+	
+	public MediaAdapter(String audioType) {
+		if(audioType.equalsIgnoreCase("vlc")) {
+			advanceMediaPlayer = new VlcPlayer();
+		} else if (audioType.equalsIgnoreCase("mp4")) {
+			advanceMediaPlayer = new Mp4Player();
+		} {
+			
+		}
+	}
+	
+	@Override
+	public void playVlc(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void playMp4(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

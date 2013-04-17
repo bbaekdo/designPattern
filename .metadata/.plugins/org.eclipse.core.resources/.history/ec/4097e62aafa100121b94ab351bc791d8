@@ -1,0 +1,10 @@
+package org.controller;
+
+import org.model.Student;
+import org.view.StudentView;
+
+public class StudentController {
+	
+	private Student student;
+	private StudentView studentView;
+}

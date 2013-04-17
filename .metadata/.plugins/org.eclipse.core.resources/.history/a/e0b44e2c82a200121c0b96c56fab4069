@@ -1,0 +1,19 @@
+package org;
+
+public class ChainPatternDemo {
+	private static AbstactLogger getChainLoggers() {
+		AbstactLogger errorLogger = new ErrorLogger(AbstactLogger.ERROR);
+		AbstactLogger fileLogger = new FileLogger(AbstactLogger.DEBUG);
+		AbstactLogger consoleLogger = new ConsoleLogger(AbstactLogger.INFO);
+		
+		errorLogger.setNextLogger(fileLogger);
+		fileLogger.setNextLogger(consoleLogger);
+		
+		return consoleLogger;
+		
+	}
+	
+	public static void main(String[] args) {
+		AbstactLogger loggerChain = getChainLoggers();
+	}
+}

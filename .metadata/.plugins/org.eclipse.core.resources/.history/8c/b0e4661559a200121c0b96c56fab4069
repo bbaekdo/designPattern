@@ -1,0 +1,15 @@
+package org;
+
+import java.lang.reflect.*;
+
+public class Dumpmethods {
+	public static void main(string args[]) { 
+try { 
+class c = class.forname(args[0]); 
+method m[] = c.getdeclaredmethods(); 
+for (int i = 0; i < m.length; i++) 
+system.out.println(m[i].tostring()); 
+} catch (throwable e) { 
+system.err.println(e); 
+} 
+}}

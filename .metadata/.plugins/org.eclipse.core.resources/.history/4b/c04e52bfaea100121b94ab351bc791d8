@@ -1,0 +1,8 @@
+package org.model;
+
+public class Student {
+	private String sId;
+	private String name;
+	
+	
+}

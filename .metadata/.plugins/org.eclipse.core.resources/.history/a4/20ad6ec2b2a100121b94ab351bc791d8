@@ -1,0 +1,18 @@
+package org.demo;
+
+import org.model.Student;
+
+public class MvcPatternDemo {
+	
+	public static void main(String[] args) {
+		Student student = retriveStudentFromDatabase()
+	}
+	
+	public static Student retriveStudentFromDatabase() {
+		Student student = new Student();
+		student.setName("Paul");
+		student.getsId("123");
+		return student;
+		
+	}
+}

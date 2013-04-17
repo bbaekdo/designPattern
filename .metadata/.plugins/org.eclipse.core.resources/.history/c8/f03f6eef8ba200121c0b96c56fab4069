@@ -1,0 +1,14 @@
+package org.expression;
+
+public abstract class Item {
+	String name;
+	float price;
+	
+	public Item() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	void display() {
+		System.out.println(this.name + " 123");
+	}
+}

@@ -1,0 +1,21 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.model.Student"><rhs name\="org.model.Student"/></lhs><lhs name\="org.controller.StudentController"><rhs name\="org.controller.StudentController"/></lhs><lhs name\="org.view.StudentView"><rhs name\="org.view.StudentView"/></lhs><lhs name\="org.media.advance.AdvanceMediaPlayer"><rhs name\="org.media.advance.VlcPlayer"/><rhs name\="org.media.advance.Mp4Player"/></lhs><lhs name\="org.media.MediaPlayer"><rhs name\="org.media.advance.adapter.MediaAdapter"/><rhs name\="org.media.audio.AudioPlayer"/></lhs><lhs name\="org.media.advance.adapter.MediaAdapter"><rhs name\="org.media.advance.adapter.MediaAdapter"/></lhs><lhs name\="org.media.audio.AudioPlayer"><rhs name\="org.media.audio.AudioPlayer"/></lhs><lhs name\="org.shape.Shape"><rhs name\="org.shape.decorator.RedShapeDecorator"/><rhs name\="org.shape.Rectangle"/><rhs name\="org.shape.Square"/><rhs name\="org.shape.Circle"/></lhs><lhs name\="org.shape.maker.ShapeMaker"><rhs name\="org.shape.maker.ShapeMaker"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.HashMap"><rhs name\="java.util.HashMap"/></lhs><lhs name\="org.shape.Circle"><rhs name\="org.shape.Circle"/></lhs><lhs name\="org.image.Image"><rhs name\="org.image.RealImage"/><rhs name\="org.image.proxy.ProxyImage"/></lhs><lhs name\="org.image.RealImage"><rhs name\="org.image.RealImage"/></lhs><lhs name\="org.AbstactLogger"><rhs name\="org.ErrorLogger"/><rhs name\="org.ConsoleLogger"/></lhs><lhs name\="org.stock.Stock"><rhs name\="org.stock.Stock"/></lhs><lhs name\="org.stock.order.Order"><rhs name\="org.stock.order.BuyStock"/><rhs name\="org.stock.order.SellStock"/></lhs><lhs name\="org.stock.order.BuyStock"><rhs name\="org.stock.order.BuyStock"/></lhs><lhs name\="org.stock.order.SellStock"><rhs name\="org.stock.order.SellStock"/></lhs><lhs name\="org.stock.Broker"><rhs name\="org.stock.Broker"/></lhs><lhs name\="org.expression.Item"><rhs name\="org.expression.Cigarette"/></lhs><lhs name\="org.expression.Cigarette"><rhs name\="org.expression.Cigarette"/></lhs><lhs name\="org.expression.Expression"><rhs name\="org.expression.TerminalExpression"/><rhs name\="org.expression.OrExpression"/><rhs name\="org.expression.AndExpression"/></lhs></history>
+content_assist_number_of_computers=21
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Monaco|11.0|0|COCOA|1|;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

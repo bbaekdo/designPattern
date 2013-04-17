@@ -1,0 +1,5 @@
+package org.media;
+
+public class MediaPlayer {
+
+}

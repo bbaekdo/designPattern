@@ -1,0 +1,11 @@
+package org.demo;
+
+import org.shape.Circle;
+import org.shape.Shape;
+
+public class DecoratorPatternDemo {
+	public static void main(String[] args) {
+		Shape circle = new Circle();
+		
+	}
+}

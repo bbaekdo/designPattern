@@ -1,0 +1,10 @@
+package org.expression;
+
+public abstract class Item {
+	String name;
+	float price;
+	
+	void display() {
+		System.out.println(this.name + " 123");
+	}
+}

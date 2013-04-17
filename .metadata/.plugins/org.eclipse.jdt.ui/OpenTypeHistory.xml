@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=BridgePattern/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1362187376000"/>
+<typeInfo handle="=BridgePattern/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1362187376000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Set.class[Set" modifiers="1537" timestamp="1362150657000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Queue.class[Queue" modifiers="1537" timestamp="1362150657000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(List.class[List" modifiers="1537" timestamp="1362150657000"/>
+<typeInfo handle="=BridgePattern/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.util(EnumSet.class[EnumSet" modifiers="1057" timestamp="1362187376000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(EnumSet.class[EnumSet" modifiers="1057" timestamp="1362150657000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1362150657000"/>
+<typeInfo handle="=AdapterPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_17.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(PriorityQueue.class[PriorityQueue" modifiers="33" timestamp="1362150657000"/>
+</typeInfoHistroy>

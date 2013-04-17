@@ -1,0 +1,15 @@
+package org;
+
+public abstract class AbstactLogger {
+	public static int INFO = 1;
+	public static int DEBUG = 2;
+	public static int ERROR = 3;
+	
+	protected int level;
+		
+	protected AbstactLogger nextLogger;
+	
+	public void setNextLogger(AbstactLogger nextLogger) {
+		this.nextLogger = nextLogger;
+	}
+}

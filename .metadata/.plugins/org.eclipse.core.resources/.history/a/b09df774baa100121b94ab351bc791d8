@@ -1,0 +1,10 @@
+package org.media.demo;
+
+import org.media.AudioPlayer;
+
+public class AdapterPatternDemo {
+	public static void main(String[] args) {
+		AudioPlayer audioPlayer = new AudioPlayer();
+		
+	}
+}

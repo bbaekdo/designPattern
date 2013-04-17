@@ -1,0 +1,5 @@
+package org.media.audio;
+
+public class AudioPlayer {
+
+}
