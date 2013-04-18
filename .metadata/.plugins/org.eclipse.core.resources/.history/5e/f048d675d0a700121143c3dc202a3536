@@ -1,0 +1,10 @@
+package org.game.coin;
+
+public class Coin {
+
+	public String getCoinOption() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

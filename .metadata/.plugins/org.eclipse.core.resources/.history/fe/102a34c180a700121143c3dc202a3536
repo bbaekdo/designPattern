@@ -1,0 +1,7 @@
+package org.client;
+
+import org.entity.CompositeEntity;
+
+public class Client {
+	private CompositeEntity compositeEntity = new CompositeEntity();
+}

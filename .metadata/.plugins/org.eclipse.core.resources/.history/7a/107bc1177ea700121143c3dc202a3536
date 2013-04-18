@@ -1,0 +1,7 @@
+package org.business.delegate;
+
+import org.business.BusinessLookUp;
+
+public class BusinessDelegate {
+	private BusinessLookUp lookUpService = new BusinessLookUp();
+}

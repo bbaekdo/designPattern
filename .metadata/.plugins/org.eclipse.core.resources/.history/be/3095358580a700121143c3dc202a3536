@@ -1,0 +1,7 @@
+package org.entity;
+
+import org.object.CoarseGrainedObject;
+
+public class CompositeEntity {
+	private CoarseGrainedObject cObject = new CoarseGrainedObject();
+}

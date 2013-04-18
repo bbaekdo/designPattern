@@ -1,0 +1,6 @@
+package org.object;
+
+public class CoarseGrainedObject {
+	DependentObject1 object1 = new DependentObject1();
+	DependentObject2 object2 = new DependentObject2();
+}

@@ -1,0 +1,5 @@
+package org.business.delegate;
+
+public class BusinessDelegate {
+
+}

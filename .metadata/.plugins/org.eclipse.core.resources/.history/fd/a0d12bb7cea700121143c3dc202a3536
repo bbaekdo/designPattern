@@ -1,0 +1,15 @@
+package org.game;
+
+import org.game.player.Player;
+
+public class CoinGame {
+	
+	Player[] players = new Player[2];
+	
+	Coin coin = new Coin();
+	
+	public CoinGame(String player1, String player2) {
+		// TODO Auto-generated constructor stub
+		
+	}
+}

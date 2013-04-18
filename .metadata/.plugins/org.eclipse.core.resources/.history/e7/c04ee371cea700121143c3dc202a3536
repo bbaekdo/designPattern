@@ -1,0 +1,7 @@
+package org.test;
+
+public class CoinGameTest {
+	public static void main(String[] args) {
+		Coin
+	}
+}

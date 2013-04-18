@@ -1,0 +1,17 @@
+package org.game.coin;
+
+public class Coin {
+
+	String coinOption ="";
+	public String[] coinValue = {"head", "Tail"};
+	
+	public Coin() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public String getCoinOption() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

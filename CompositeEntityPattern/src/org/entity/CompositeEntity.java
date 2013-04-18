@@ -1,0 +1,15 @@
+package org.entity;
+
+import org.object.CoarseGrainedObject;
+
+public class CompositeEntity {
+	private CoarseGrainedObject cObject = new CoarseGrainedObject();
+	
+	public void setData(String data1, String data2) {
+		cObject.setData(data1, data2);
+	}
+	
+	public String[] getData() {
+		return cObject.getData();
+	}
+}

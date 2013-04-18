@@ -1,0 +1,28 @@
+package org.game;
+
+import org.game.coin.Coin;
+import org.game.player.Player;
+
+public class CoinGame {
+	
+	Player[] players = new Player[2];
+	
+	Coin coin = new Coin();
+	
+	public CoinGame(String player1, String player2) {
+		// TODO Auto-generated constructor stub
+		players[0] = new Player(player1);
+		players[1] = new Player(player2);
+	}
+	
+	public void startGame() {
+		int randIndex = (Math.random() <0.5) ? 0: 1;
+		
+		String playerPick = players[randIndex].getRandCoinOption();
+		
+		int opponentIndex = (randIndex == 0)? 1: 0;
+		players[opponentIndex].setCoinOption(playerPick);
+		
+		String winning = coin.getCoinOption();
+	}
+}

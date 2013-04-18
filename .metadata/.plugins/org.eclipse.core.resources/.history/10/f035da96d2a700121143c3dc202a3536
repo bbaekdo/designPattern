@@ -1,0 +1,8 @@
+package org.bike;
+
+import org.wheel.Wheel;
+
+public class Bike {
+	private Wheel wheel;
+	private Frame frame;
+}

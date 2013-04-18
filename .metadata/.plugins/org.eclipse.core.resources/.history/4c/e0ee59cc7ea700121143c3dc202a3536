@@ -1,0 +1,10 @@
+package org.business.demo;
+
+import org.business.delegate.BusinessDelegate;
+
+public class BusinessDelegatePatternDemo {
+	public static void main(String[] args) {
+		BusinessDelegate businessDelegate = new BusinessDelegate();
+		businessDelegate.setServiceType("EJB");
+	}
+}

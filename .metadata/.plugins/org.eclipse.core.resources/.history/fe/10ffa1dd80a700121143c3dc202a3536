@@ -1,0 +1,13 @@
+package org.client;
+
+import org.entity.CompositeEntity;
+
+public class Client {
+	private CompositeEntity compositeEntity = new CompositeEntity();
+	
+	public void printData() {
+		for (int i = 0; i < compositeEntity.getData().length; i++) {
+			
+		}
+	}
+}

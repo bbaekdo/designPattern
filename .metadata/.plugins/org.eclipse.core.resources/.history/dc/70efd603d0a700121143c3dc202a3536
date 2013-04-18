@@ -1,0 +1,5 @@
+package org.game.coin;
+
+public class Coin {
+
+}

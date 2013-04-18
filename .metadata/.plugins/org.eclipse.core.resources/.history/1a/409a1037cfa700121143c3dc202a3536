@@ -1,0 +1,15 @@
+package org.test;
+
+import org.game.CoinGame;
+
+public class CoinGameTest {
+	public static void main(String[] args) {
+		CoinGame coinGame = new CoinGame("Paul", "123");
+		
+		String userAnswer;
+		
+		do {
+			coinGame.startGame();
+		}while(userAnswer.startsWith("Y") || userAnswer.startsWith("y"));
+	}
+}

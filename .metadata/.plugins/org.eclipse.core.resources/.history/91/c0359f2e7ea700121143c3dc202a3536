@@ -1,0 +1,10 @@
+package org.business.delegate;
+
+import org.business.BusinessLookUp;
+import org.service.BusinessService;
+
+public class BusinessDelegate {
+	private BusinessLookUp lookUpService = new BusinessLookUp();
+	private BusinessService businessService;
+	private String serviceType;
+}

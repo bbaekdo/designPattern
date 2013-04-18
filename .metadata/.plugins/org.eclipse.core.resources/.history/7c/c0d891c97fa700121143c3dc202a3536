@@ -1,0 +1,5 @@
+package org.object;
+
+public class DependentObject1 {
+
+}

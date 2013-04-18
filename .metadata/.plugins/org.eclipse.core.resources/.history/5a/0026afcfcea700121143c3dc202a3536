@@ -1,0 +1,7 @@
+package org.test;
+
+public class CoinGameTest {
+	public static void main(String[] args) {
+		CoinGame coinGame = new CoinGame("Paul", "123");
+	}
+}

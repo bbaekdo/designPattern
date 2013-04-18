@@ -1,0 +1,7 @@
+package org.client;
+
+import org.business.delegate.BusinessDelegate;
+
+public class Client {
+	BusinessDelegate businessDelegate;
+}

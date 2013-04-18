@@ -1,0 +1,11 @@
+package org.game;
+
+public class CoinGame {
+	
+	Player[] players = new Player[2];
+	
+	public CoinGame(String player1, String player2) {
+		// TODO Auto-generated constructor stub
+		
+	}
+}
