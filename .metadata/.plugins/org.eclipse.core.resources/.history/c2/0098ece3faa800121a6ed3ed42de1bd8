@@ -1,0 +1,25 @@
+package org.bank.network;
+
+import java.util.ArrayList;
+
+import org.bank.card.Card;
+import org.bank.utils.BankComputer;
+
+public class BankNetwork {
+	
+	private ArrayList<BankComputer> bankComputers = new ArrayList<BankComputer>();
+	
+	
+	public void addBankToNetwork(BankComputer bankComputer) {
+		// TODO Auto-generated method stub
+		this.bankComputers.add(bankComputer);
+	}
+
+
+	public boolean isATMCardsInNetwork(Card customerATMCard) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+
+}

@@ -1,0 +1,29 @@
+package org.bank.transaction;
+
+import javax.xml.crypto.Data;
+
+public class Transaction {
+	
+	private int bankId;
+	private Data currentData;
+	private String customerName;
+	private double accBalance;
+	private int withdrawalAmt;
+	private int accNumUsed;
+	
+	
+	public Transaction(int stripNum) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setStripNum(int stripNum) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setDidtheCardVerify(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

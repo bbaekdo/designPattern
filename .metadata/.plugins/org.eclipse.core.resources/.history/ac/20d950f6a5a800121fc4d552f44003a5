@@ -1,0 +1,16 @@
+package org.bank.utils;
+
+import org.bank.account.Account;
+
+public class BankComputer {
+
+	public BankComputer(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void addAccToBank(Account account) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

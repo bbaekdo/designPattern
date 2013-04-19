@@ -1,0 +1,66 @@
+package org.bank.atm;
+
+import java.util.Scanner;
+
+import org.bank.card.Card;
+import org.bank.network.BankNetwork;
+import org.bank.transaction.Transaction;
+
+public class ATM {
+
+	private Transaction transaction = null; 
+	private BankNetwork bankNetwork = null;
+	
+	static Scanner userInput = new Scanner(System.in);
+	
+	public ATM(BankNetwork bankNetwork) {
+		// TODO Auto-generated constructor stub
+		this.bankNetwork = bankNetwork;
+	}
+
+	public boolean isStripReadable(Card customerATMCard) {
+		int numOfDigitsInStrip = (int) (Math.log10(customerATMCard.getStripNum()) + 1);
+		transaction = new Transaction(customerATMCard.getStripNum());
+		
+		if(numOfDigitsInStrip == 10) {
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+
+	public boolean isATMCardInNetwork(Card customerATMCard) {
+
+		if(bankNetwork.isATMCardsInNetwork(customerATMCard)) {
+			transaction.setStripNum(customerATMCard.getStripNum());
+			transaction.setDidtheCardVerify(true);
+			return true;
+		} else {
+			return false;	
+		}
+		
+		
+	}
+
+	public void insertPIN(Card customerATMCard, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void pickAccToAccess() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void amountToWithdrawal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void generateTransactionInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

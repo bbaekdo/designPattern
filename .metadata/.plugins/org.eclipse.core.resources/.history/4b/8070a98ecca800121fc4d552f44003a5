@@ -1,0 +1,17 @@
+package org.bank.network;
+
+import java.util.ArrayList;
+
+import org.bank.utils.BankComputer;
+
+public class BankNetwork {
+	
+	private ArrayList<BankComputer> bankComputers = new ArrayList<BankComputer>();
+	
+	
+	public void addBankToNetwork(BankComputer anzBankComputer) {
+		// TODO Auto-generated method stub
+		this.bankComputers.add(anzBankComputer);
+	}
+
+}

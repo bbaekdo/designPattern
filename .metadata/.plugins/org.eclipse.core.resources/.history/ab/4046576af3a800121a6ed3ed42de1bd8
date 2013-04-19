@@ -1,0 +1,17 @@
+package org.bank.atm;
+
+import org.bank.card.Card;
+import org.bank.network.BankNetwork;
+
+public class ATM {
+
+	public ATM(BankNetwork bankNetwork) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void isStripReadable(Card customerATMCard) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

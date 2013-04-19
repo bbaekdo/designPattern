@@ -1,0 +1,5 @@
+package org.bank.customer;
+
+public class Customer {
+
+}

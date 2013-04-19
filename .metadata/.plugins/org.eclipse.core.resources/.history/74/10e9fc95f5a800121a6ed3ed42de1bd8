@@ -1,0 +1,45 @@
+package org.bank.atm;
+
+import org.bank.card.Card;
+import org.bank.network.BankNetwork;
+
+public class ATM {
+
+	private Transaction t; 
+	
+	public ATM(BankNetwork bankNetwork) {
+		// TODO Auto-generated constructor stub
+		
+	}
+
+	public void isStripReadable(Card customerATMCard) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void isATMCardInNetwork(Card customerATMCard) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void insertPIN(Card customerATMCard, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void pickAccToAccess() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void amountToWithdrawal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void generateTransactionInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

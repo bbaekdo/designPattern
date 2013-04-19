@@ -1,0 +1,11 @@
+package org.bank.customer;
+
+import org.bank.card.Card;
+
+public class Customer {
+
+	public Customer(Card customerATMCard) {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

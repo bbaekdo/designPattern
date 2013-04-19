@@ -1,0 +1,42 @@
+package org.bank.network;
+
+import java.util.ArrayList;
+
+import org.bank.card.Card;
+import org.bank.utils.BankComputer;
+
+public class BankNetwork {
+	
+	private ArrayList<BankComputer> bankComputers = new ArrayList<BankComputer>();
+	
+	
+	public void addBankToNetwork(BankComputer bankComputer) {
+		// TODO Auto-generated method stub
+		this.bankComputers.add(bankComputer);
+	}
+
+
+	public boolean isATMCardsInNetwork(Card customerATMCard) {
+		// TODO Auto-generated method stub
+		Boolean cardVerification = false;
+		int cardBankId = getFirstDigits(customerATMCard.getStripNum());
+		
+		for (BankComputer bankComputer : bankComputers) {
+			if(bankComputer.getBankId() == cardBankId) {
+				cardVerification = true;
+			}
+		}
+		
+		return cardVerification;
+	}
+
+
+	private int getFirstDigits(int stripNum) {
+		// TODO Auto-generated method stub
+		String stringOfStripNum = Integer.toString(stripNum);
+		int bankIdFromStrip = Integer.parseInt(stringOfStripNum.substring(0, 2));
+		return bankIdFromStrip;
+	}
+	
+
+}

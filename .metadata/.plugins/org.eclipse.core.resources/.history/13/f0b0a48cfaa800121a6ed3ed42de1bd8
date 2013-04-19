@@ -1,0 +1,36 @@
+package org.bank.transaction;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+
+import javax.xml.crypto.Data;
+
+public class Transaction {
+	
+	DateFormat dataFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+	
+	private int bankId;
+	private Data currentData;
+	private String customerName;
+	private double accBalance;
+	private int withdrawalAmt;
+	private int accNumUsed;
+	private int pin;
+	private int stripNum;
+	private int accToWithdrawalFrom;
+	
+	public Transaction(int stripNum) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setStripNum(int stripNum) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setDidtheCardVerify(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

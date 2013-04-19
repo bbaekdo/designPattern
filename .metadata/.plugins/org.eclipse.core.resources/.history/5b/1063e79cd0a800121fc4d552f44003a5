@@ -1,0 +1,11 @@
+package org.bank.atm;
+
+import org.bank.network.BankNetwork;
+
+public class ATM {
+
+	public ATM(BankNetwork bankNetwork) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

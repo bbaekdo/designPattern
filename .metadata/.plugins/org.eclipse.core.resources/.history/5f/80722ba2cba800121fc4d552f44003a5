@@ -1,0 +1,28 @@
+package org.bank.utils;
+
+import java.util.ArrayList;
+
+import org.bank.account.Account;
+
+public class BankComputer{
+
+	private int bankId = 9;
+	private String bankName = "";
+	
+	private ArrayList<Account> accounts = new ArrayList<Account>();
+	
+	public static int numOfBanks = 0;
+	
+	public	BankComputer(String newBankName) {
+		// TODO Auto-generated constructor stub
+		bankName = bankName;
+		numOfBanks++;
+		this.bankId = numOfBanks;
+	}
+	
+	public void addAccToBank(Account account) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

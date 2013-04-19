@@ -1,0 +1,13 @@
+package org.test;
+
+import org.bank.account.Account;
+import org.bank.card.Card;
+
+public class TestATM {
+	
+	public static void main(String[] args) {
+		Account account  = new Account(10, "Paul", "C", 10000.00, 3456);
+		
+		Card customerATMCard = new Card(account.getPin(), account.getStripNum()); 
+	}
+}

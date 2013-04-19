@@ -1,0 +1,15 @@
+package org.bank.transaction;
+
+public class Transaction {
+
+	public void setStripNum(int stripNum) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setDidtheCardVerify(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

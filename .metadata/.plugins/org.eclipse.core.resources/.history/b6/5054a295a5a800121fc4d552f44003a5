@@ -1,0 +1,9 @@
+package org.bank.utils;
+
+public class BankComputer {
+
+	public BankComputer(String string) {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
