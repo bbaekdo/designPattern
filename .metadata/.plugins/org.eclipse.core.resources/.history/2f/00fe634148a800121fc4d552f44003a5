@@ -1,0 +1,8 @@
+package org.client;
+
+import org.FilterManager;
+
+
+public class Client {
+	FilterManager filterManager;
+}

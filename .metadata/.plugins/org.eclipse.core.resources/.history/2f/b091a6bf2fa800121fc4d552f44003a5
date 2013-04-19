@@ -1,0 +1,15 @@
+package org.context.cache;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.service.Service;
+
+public class Cache {
+	private List<Service> services;
+	
+	public Cache() {
+		// TODO Auto-generated constructor stub
+		services = new ArrayList<>();
+	}
+}

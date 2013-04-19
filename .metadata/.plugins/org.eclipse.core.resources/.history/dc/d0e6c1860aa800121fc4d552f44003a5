@@ -1,0 +1,14 @@
+package org.service;
+
+public class InitialContext {
+	public Object lookup(String jndiName) {
+		
+		if(jndiName.equalsIgnoreCase("SERVICE1")) {
+			System.out.println("look up create service1");
+			return new Service1();
+		} else if (jndiName.equalsIgnoreCase("SERVICE2")) {
+			System.out.println("look up and create service2");
+			return new Service2();
+		}
+	}
+}

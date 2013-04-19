@@ -1,0 +1,10 @@
+package org;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.filter.Filter;
+
+public class FilterChain {
+	private List<Filter> filters =new ArrayList<Filter>();
+}

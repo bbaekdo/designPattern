@@ -1,0 +1,26 @@
+package org.bank.account;
+
+public class Account {
+	private int bankId;
+	private int accNum;
+	private String customerName;
+	private String accType;
+	private double accBalance;
+	private int pin;
+	private int stripNumber;
+	
+	public Account(int bankId, int accNum, String customerName, String accType,
+			double accBalance, int pin) {
+		super();
+		this.bankId = bankId;
+		this.accNum = accNum;
+		this.customerName = customerName;
+		this.accType = accType;
+		this.accBalance = accBalance;
+		this.pin = pin;
+		this.stripNumber = stripNumber;
+	}
+	
+	
+	
+}

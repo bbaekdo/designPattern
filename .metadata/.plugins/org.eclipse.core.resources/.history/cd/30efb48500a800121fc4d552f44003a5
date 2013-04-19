@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class StudentBO {
+	List<StudentVO> students;
+	
+	public StudentBO() {
+		// TODO Auto-generated constructor stub
+	
+		students = new ArrayList<StudentVO>();
+		StudentVO student1 = new StudentVO("Paul", 0);
+		StudentVO student2 = new StudentVO("Paul2", 1);
+		
+		
+		students.add(student1);
+		students.add(student2);
+		
+	}
+	
+	public void deleteStudent(StudentVO student) {
+		
+	}
+}

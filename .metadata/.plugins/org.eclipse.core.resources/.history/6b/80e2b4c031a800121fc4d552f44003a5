@@ -1,0 +1,16 @@
+package org.service;
+
+import org.context.cache.Cache;
+
+public class ServiceLocator {
+	private static Cache cache;
+	
+	static {
+		cache = new Cache();
+	}
+	
+	public static Service getService(String jndiName) {
+		Service service = cache.getService(serviceName);
+	}
+	
+}

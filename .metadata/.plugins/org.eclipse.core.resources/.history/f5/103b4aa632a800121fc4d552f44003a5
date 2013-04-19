@@ -1,0 +1,7 @@
+package org.context;
+
+public class ServiceLocatorPatternDemo {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,18 @@
+package org.demo;
+
+import org.FilterManager;
+import org.Target;
+import org.client.Client;
+import org.filter.AuthenticationFilter;
+import org.filter.DebugFilter;
+
+public class InterceptingFilterPatternDemo {
+	public static void main(String[] args) {
+		FilterManager filterManager = new FilterManager(new Target());
+		filterManager.setFilter(new AuthenticationFilter());
+		filterManager.setFilter(new DebugFilter());
+		Client client = new Client();
+		client.setFilterManager(filterManager);
+		client.sendRequest("HOME");
+	}
+}

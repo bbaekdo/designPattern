@@ -1,0 +1,12 @@
+package org.bank.account;
+
+public class Account {
+	private int bankId;
+	private int accNum;
+	private String customerName;
+	private String accType;
+	private double accBalance;
+	private int pin;
+	private int stripNumber;
+	
+}

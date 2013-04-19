@@ -1,0 +1,5 @@
+
+public class Dispathcher {
+	private StudentView studentView;
+	private HomeView homeView;
+}

@@ -1,0 +1,4 @@
+
+public class StudentBO {
+	List<StudentVO> students;
+}

@@ -1,0 +1,8 @@
+
+public class FrontController {
+	private Dispathcher dispathcher;
+	
+	public FrontController() {
+		dispathcher = new Dispathcher();
+	}
+}

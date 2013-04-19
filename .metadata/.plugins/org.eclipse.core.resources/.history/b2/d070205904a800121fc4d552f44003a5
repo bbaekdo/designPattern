@@ -1,0 +1,7 @@
+package org.service;
+
+public class InitialContext {
+	public Object lookup(String jndiName) {
+		
+	}
+}

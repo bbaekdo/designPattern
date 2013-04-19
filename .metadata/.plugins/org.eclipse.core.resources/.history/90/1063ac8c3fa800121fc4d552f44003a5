@@ -1,0 +1,9 @@
+package org;
+
+import java.util.List;
+
+import org.filter.Filter;
+
+public class FilterChain {
+	private List<Filter> list
+}

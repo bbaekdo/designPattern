@@ -1,0 +1,9 @@
+package org.context.cache;
+
+import java.util.List;
+
+import org.service.Service;
+
+public class Cache {
+	private List<Service> services;
+}

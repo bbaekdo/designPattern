@@ -1,0 +1,5 @@
+package org.service;
+
+public class Service2 implements Service {
+		
+}

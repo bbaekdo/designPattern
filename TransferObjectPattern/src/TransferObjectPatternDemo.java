@@ -1,0 +1,18 @@
+
+public class TransferObjectPatternDemo {
+	public static void main(String[] args) {
+		StudentBO studentBusinessObject = new StudentBO();
+		
+		for(StudentVO student : studentBusinessObject.getStudents()) {
+			System.out.println("student roll num: " + student.getRollNo() + " name: " + student.getName());
+			
+		}
+		
+		StudentVO student = studentBusinessObject.getStudents().get(0);
+		student.setName("paul2123");
+		studentBusinessObject.updateStudent(student);
+		
+		studentBusinessObject.getStudent(0);
+		System.out.println("Student roll num: " + student.getRollNo() + " name: " + student.getName());
+	}
+}

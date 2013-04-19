@@ -1,0 +1,10 @@
+
+public class DaoPatternDemo {
+	public static void main(String[] args) {
+		StudentDao studentDao = new StudentDaoTmpl();
+		
+		for (Student student : studentDao.getStudents()) {
+			System.out.println("Student roll no " + student.getRollNo() + " name " + student.getName());
+		}
+	}
+}

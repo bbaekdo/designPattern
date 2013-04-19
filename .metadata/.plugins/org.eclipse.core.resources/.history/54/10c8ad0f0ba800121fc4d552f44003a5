@@ -1,0 +1,5 @@
+package org.context.cache;
+
+public class Cache {
+	private List<Service> services;
+}

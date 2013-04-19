@@ -1,0 +1,6 @@
+
+public class TransferObjectPatternDemo {
+	public static void main(String[] args) {
+		StudentBO studentBusinessObject = new StudentBO();
+	}
+}
