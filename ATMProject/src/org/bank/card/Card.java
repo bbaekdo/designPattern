@@ -11,6 +11,11 @@ public class Card {
 		this.stripNum = stripNum;
 	}
 
+	public Card(int stripNum) {
+		// TODO Auto-generated constructor stub
+		this.stripNum =stripNum;
+	}
+	
 	public int getPin() {
 		return pin;
 	}

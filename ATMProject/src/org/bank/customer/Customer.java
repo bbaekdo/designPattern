@@ -10,5 +10,11 @@ public class Customer {
 		// TODO Auto-generated constructor stub
 		this.card = customerATMCard;
 	}
+
+	public Card getCard() {
+		return card;
+	}
+
+	
 	
 }

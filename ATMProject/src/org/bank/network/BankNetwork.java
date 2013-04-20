@@ -20,7 +20,7 @@ public class BankNetwork {
 	public boolean isATMCardsInNetwork(Card customerATMCard) {
 		// TODO Auto-generated method stub
 		Boolean cardVerification = false;
-		int cardBankId = getFirstDigits(customerATMCard.getStripNum());
+		int cardBankId = getFirstTwoDigits(customerATMCard.getStripNum());
 		
 		for (BankComputer bankComputer : bankComputers) {
 			if(bankComputer.getBankId() == cardBankId) {
@@ -29,14 +29,6 @@ public class BankNetwork {
 		}
 		
 		return cardVerification;
-	}
-
-
-	private int getFirstDigits(int stripNum) {
-		// TODO Auto-generated method stub
-		String stringOfStripNum = Integer.toString(stripNum);
-		int bankIdFromStrip = Integer.parseInt(stringOfStripNum.substring(0, 2));
-		return bankIdFromStrip;
 	}
 
 
@@ -69,6 +61,14 @@ public class BankNetwork {
 		} else {
 			System.out.println("an error occurred during withdrawal");
 		}
+	}
+
+
+	public static int getFirstTwoDigits(int stripNum) {
+		// TODO Auto-generated method stub
+		String stringOfStripNum = Integer.toString(stripNum);
+		int bankIdFromStrip = Integer.parseInt(stringOfStripNum.substring(0, 2));
+		return bankIdFromStrip;
 	}
 	
 

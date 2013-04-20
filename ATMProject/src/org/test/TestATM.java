@@ -14,7 +14,7 @@ public class TestATM {
 		
 		Card customerATMCard = new Card(account.getPin(), account.getStripNum());
 		
-		new Customer(customerATMCard);
+		Customer customer = new Customer(customerATMCard);
 		
 		BankComputer anzBankComputer = new BankComputer("ANZ Bank");
 		

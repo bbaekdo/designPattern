@@ -85,7 +85,16 @@ public class ATM {
 
 	public void generateTransactionInfo() {
 		// TODO Auto-generated method stub
+		System.out.println("Thank u " + transaction.getCustomerName() + "for using ANZ bank ATM");
+		System.out.println("Date: " + transaction.getCurrentDateTime());
+		System.out.println("Transaction");
+		System.out.println("Removed " + transaction.getWithdrawalAmt() + " from u");
 		
+		if(transaction.getAccToWithdrawalFrom() == 1) {
+			System.out.println("saving account is " + transaction.getAccBalance());
+		} else {
+			System.out.println("checking account is " + transaction.getAccBalance());
+		}
 	}
 
 }

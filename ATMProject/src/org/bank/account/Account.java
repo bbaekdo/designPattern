@@ -1,6 +1,7 @@
 package org.bank.account;
 
 public class Account {
+
 	private int bankId;
 	private int accNum;
 	private String customerName;
@@ -13,7 +14,7 @@ public class Account {
 	
 	public Account(int bankId, String customerName, String accType,
 			double accBalance, int pin) {
-		super();
+
 		this.bankId = bankId;
 		this.customerName = customerName;
 		this.accType = accType;
@@ -26,10 +27,10 @@ public class Account {
 
 	private int generateAccNum(int stripNum2, String accType2) {
 		// TODO Auto-generated method stub
-		if(accType.startsWith("s") ||accType.startsWith("S")) {
-			accNum = (stripNum*10) + 1;
+		if(accType2.startsWith("s") ||accType2.startsWith("S")) {
+			accNum = (stripNum2*10) + 1;
 		} else {
-			accNum = (stripNum*10) + 2;
+			accNum = (stripNum2*10) + 2;
 		}
 		return accNum;
 	}
@@ -37,7 +38,7 @@ public class Account {
 	private int generateStripNum(int bankId2) {
 		// TODO Auto-generated method stub
 		accNumIncrementor++;
-		int newStripNum = (bankId*10000000) + accNumIncrementor;
+		int newStripNum = (bankId*1000000) + accNumIncrementor;
 		
 		return newStripNum;
 	}
@@ -68,6 +69,11 @@ public class Account {
 
 	public int getStripNum() {
 		return stripNum;
+	}
+
+	public void setAccBalance(double newAccBalance) {
+		// TODO Auto-generated method stub
+		this.accBalance = newAccBalance;
 	}
 	
 	

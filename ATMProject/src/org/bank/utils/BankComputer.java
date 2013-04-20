@@ -31,14 +31,33 @@ public class BankComputer{
 		return bankId;
 	}
 
-	public void verifyThePIN(Transaction transaction) {
+	public Boolean verifyThePIN(Transaction transaction) {
 		// TODO Auto-generated method stub
-		
+		Boolean cardVerification = false;
+		if(transaction.getDidCardVerify()) {
+			for(Account account : accounts) {
+				if(account.getPin() == transaction.getPIN() && account.getStripNum() == transaction.getStripNum()) {
+					cardVerification = true;
+					transaction.setCustomerName(account.getCustomerName());
+				}
+			}
+		}
+		return cardVerification;
 	}
 
 	public void requestWithdrawalAmt(Transaction transaction) {
 		// TODO Auto-generated method stub
-		
+		for(Account account : accounts) {
+			if(account.getAccNum() == transaction.getAccNumUsed()) {
+				if(account.getAccBalance() >= transaction.getWithdrawalAmt()) {
+					double newAccBalance = account.getAccBalance() - transaction.getWithdrawalAmt();
+					account.setAccBalance(newAccBalance);
+					transaction.setAccBalance(newAccBalance);
+				} else {
+					System.out.println("you cannot withdrawal that much money");
+				}
+			}
+		}
 	}
 	
 }
